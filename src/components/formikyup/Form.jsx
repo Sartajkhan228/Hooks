@@ -98,7 +98,8 @@ const FormData = () => {
 
                         <button
                             type='submit'
-                            className='bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 duration-300 ease-in-out cursor-pointer'
+                            className='bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 duration-300 
+                            ease-in-out cursor-pointer'
                         >
                             {isSubmitting ? 'Submitting...' : 'Submit'}
 

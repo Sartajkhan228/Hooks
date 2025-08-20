@@ -11,7 +11,8 @@ export const userSchema = Yup.object({
         .matches(/[a-z]/, "Password must contain at least one lowerCase letter")
         .matches(/[0-9]/, "Password must contain at least one number")
         .matches(/[@!#$%&*?]/, "Password must contain at least one special character"),
-    confirmPassword: Yup.string().oneOf([Yup.ref("password"), null], "Your password and confirm password are not same").required("Confirm password is required"),
+    confirmPassword: Yup.string().oneOf([Yup.ref("password"), null], "Your password and confirm password are not same")
+        .required("Confirm password is required"),
     city: Yup.string().min(3, "City name contain at least three characters").required("City is required"),
     age: Yup.number().min(18, "Age must be more than 18").required("Age is required"),
     phoneNumber: Yup.string()
