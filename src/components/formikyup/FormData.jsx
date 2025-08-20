@@ -2,7 +2,7 @@
 import React from 'react'
 import { Form, Formik } from 'formik';
 import Inputs from './Inputs';
-import { userSchema } from '../../validations/userschema';
+import { userSchema } from '../../validations/userSchema.js'
 import { toast } from 'react-toastify';
 
 const FormData = () => {
