@@ -6,7 +6,7 @@ import UseRef from './components/useRef/UseRef'
 import UseState from './components/useState/UseState'
 import Return from './components/useEffect/Return'
 import Memo from './components/useMemo/useMemo'
-import FormData from './components/formikyup/Form'
+import FormData from './components/formikyup/FormData'
 import { ToastContainer } from 'react-toastify'
 // import HooksExample from './components/userefeffectstate/HooksExample'
 
