@@ -8,6 +8,9 @@ import Return from './components/useEffect/Return'
 import Memo from './components/useMemo/useMemo'
 import FormData from './components/formikyup/FormData'
 import { ToastContainer } from 'react-toastify'
+import DataBinding from './components/databinding/DataBinding'
+import OneWay from './components/databinding/oneway/OneWay'
+import TwoWay from './components/databinding/twoway/TwoWay'
 // import HooksExample from './components/userefeffectstate/HooksExample'
 
 const App = () => {
@@ -23,6 +26,9 @@ const App = () => {
         <Route path='/return' element={<Return />} />
         <Route path='/usememo' element={<Memo />} />
         <Route path='/formdata' element={<FormData />} />
+        <Route path='/databinding' element={<DataBinding />} />
+        <Route path='/oneway' element={<OneWay />} />
+        <Route path='/twoway' element={<TwoWay />} />
         {/* <Route path='/hooksexample' element={<HooksExample />} /> */}
       </Routes>
       <ToastContainer />

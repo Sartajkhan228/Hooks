@@ -28,6 +28,9 @@ const Header = () => {
                 <Link to="/formdata">
                     <button className='border rounded-2xl px-3.5 py-1.5 bg-blue-500 cursor-pointer'>Formik</button>
                 </Link>
+                <Link to="/databinding">
+                    <button className='border rounded-2xl px-3.5 py-1.5 bg-blue-500 cursor-pointer'>Data Binding</button>
+                </Link>
 
             </div>
         </div>

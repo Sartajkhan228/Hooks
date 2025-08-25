@@ -7,8 +7,6 @@ const Memo = () => {
     const [dark, setDark] = useState(false)
 
 
-
-
     const expensiveCalculation = (num) => {
         console.log('Expensive calculation is running...')
         for (let i = 0; i < 1000; i++) {
